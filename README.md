@@ -1,4 +1,4 @@
-docker run -d --hostname gitlab.vyakhir.com \ 
+docker run -d --hostname gitlab.vyakhir.com \
 -p 80:80 -p 22:22 -p 443:443 \
 --name gitlab \
 --restart always \
