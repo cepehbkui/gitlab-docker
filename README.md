@@ -1,5 +1,6 @@
-docker run -d --hostname gitlab.vyakhir.com \
--p 80:80 -p 22:22 -p 443:443 \
+docker run -d \
+--hostname gitlab.vyakhir.com \
+-p 80:80 -p 222:22 -p 443:443 \
 --name gitlab \
 --restart always \
 -e GITLAB_SKIP_UNMIGRATED_DATA_CHECK=true \
