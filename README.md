@@ -10,6 +10,6 @@ https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md
 
 If this container fails to start due to permission problems try to fix it by executing:
 
-  docker exec -it gitlab update-permissions
-  docker restart gitlab
+docker exec -it gitlab update-permissions
+docker restart gitlab
 
